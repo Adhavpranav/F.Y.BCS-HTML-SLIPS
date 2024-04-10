@@ -1,0 +1,61 @@
+Slip-12
+
+Q1.Write a HTML code which generates the following output.
+
+<html>
+    <head>
+        <style>
+            .first{
+                background-color: cyan;
+            }
+            .second{
+                background-color: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px">
+            <tr>
+                <td colspan="2">Person</td>
+                <td colspan="2">Department</td>
+            </tr>
+            <tr>
+                <td class="first">Name</td>
+                <td rowspan="4" class="first">photo</td>
+                <td class="second">Name</td>
+                <td rowspan="2" class="second">image</td>
+            </tr>
+            <tr>
+                <td class="first">Surname</td>
+                <td class="second">Structure</td>
+            </tr>
+            <tr>
+                <td class="first" >State</td>
+                <td class="second">Floor</td>
+                <td rowspan="2"class="second">QR code</td>
+            </tr>
+            <tr>
+                <td class="first">City</td>
+                <td class="second">Room</td>
+            </tr>
+            <tr>
+                <td colspan="2">E-mail</td>
+                <td colspan="2">Tel number</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+Q2.Write a HTML code which generates a text using canvas graphics. 
+
+<html>
+<body>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey;"></canvas>
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.font = "50px Arial";
+ctx.fillText("Hello World",10,80);
+</script>
+</body>
+</html>

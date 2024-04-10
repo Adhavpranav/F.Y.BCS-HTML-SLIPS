@@ -1,0 +1,63 @@
+Slip-4
+
+Q1. Write a HTML code which generates the following output. 
+
+<html>
+    <body>
+        <table border="1px">
+            <tr>
+                <th>table heading</th>
+                <th>table heading</th>
+                <th>taable heading</th>
+            </tr>
+            <tr>
+                <td>table data</td>
+                <td>table data</td>
+                <td>table data</td>
+            </tr>
+            <tr>
+                <td>table data</td>
+                <td>table data
+                    <table border="1px">
+                        <tr>
+                            <th>table heading</th>
+                            <th>table heading</th>
+                            <th>table heading</th>
+                        </tr>
+                            <tr>
+                                <td>table data</td>
+                                <td>table data</td>
+                                <td>table data</td>
+                            </tr>
+                            <tr>
+                                <td>table data</td>
+                                <td>table data</td>
+                                <td>table data</td>
+                            </tr>
+                            <tr>
+                                <td>table data</td>
+                                <td>table data</td>
+                                <td>table data</td>
+                            </tr>
+                    </table>
+                </td>
+                <td>table data</td>
+            </tr>
+            <tr>
+                <td>table data</td>
+                <td>table data</td>
+                <td>table data</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+Q2.Write a HTML code which generates rectangle using SVG.
+
+<html>
+    <body>
+        <svg width="300"height="130">
+            <rect width="200" height="100"fill="blue"/>
+        </svg>
+    </body>
+</html>

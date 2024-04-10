@@ -1,0 +1,68 @@
+Slip-5
+
+Q1.Write a HTML code which generates the following output .
+
+<html>
+<body>
+    <form>
+        <h1>Application Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname"/>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname"/><br><br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob"/>
+        <label for="age">Age:</label>
+        <input type="number" id="age"/><br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Enter email address" /><br><br>
+        <label for="pa">Positions Available:</label>
+        <input type="radio" name="paa" id="paa" />Junior Developer
+        <input type="radio" name="paa" id="paa" />Mid-level Developer
+        <input type="radio" name="paa" id="paa" />senior Developer
+        <br><br>
+        <lable for="pl">Programming Languages:</lable>
+        <input type="checkbox" id="pl" />Java
+        <input type="checkbox" id="pl" />JavaScript
+        <input type="checkbox" id="pl" />Python
+        <br><br>
+        <lable for="pass">Password:</lable>
+        <input type="password" id="pass" />
+        <lable for="cpass">Confirm password:</lable>
+        <input type="password" id="cpass" />
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
+
+Q2.Write a HTML code which generates page with red background with a message 
+“warning” in large size .Add scrolling text “read the message” below it using embedding 
+stylesheet.
+
+<html>
+    <head>
+        <style>
+            body{
+                background-color:red;
+            }
+            h1{
+                color: white;
+                font-size:50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WARNING</h1>
+        <marquee>
+            read the message
+        </marquee>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+Slip-10
+
+Q1.Write a HTML code which generates the following output.
+
+<html>
+    <body>
+       <table border="1px" style="border-color:green">
+        <tr>
+            <td>Main table row 1 column 1</td>
+            <td style="text-align: center;">
+                Main table column 2
+                <table border="1px" style="border-color: blue;">
+                    <tr>
+                        <td>Inner Table row 1 column 1</td>
+                        <td>Inner Table row 1 column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 2 column 1</td>
+                        <td>Inner Table row 2 column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 3 column 1</td>
+                        <td>Inner Table row 3 column 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>Main table row 2 column 1</td>
+            <td>Main table row 2 column 2</td>
+        </tr>
+       </table>
+    </body>
+</html>
+
+Q2.Write a HTML code which generates the following output.
+
+<html>
+<body style="border: 2px solid blue;height:fit-content;width:fit-content;">
+    <ul>
+        <li>Fruit</li>
+        <ul type="circle">
+            <li>Banana</li>
+            <li>Apples</li>
+            <ul type="square">
+                <li>Green</li>
+                <li>Red</li>
+            </ul>
+            <li>Pears</li>
+        </ul>
+        <li>Vegatables</li>
+        <li>Meat</li>
+    </ul>
+</body>
+</html>

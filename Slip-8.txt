@@ -1,0 +1,61 @@
+Slip-8
+
+Q1.Write a HTML code which generates the following output.
+
+<html>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend><br>
+                <label for="Salutation">Salutation</label>
+                <select>
+                    <option disabled selected>--None--</option>
+                    <option>Mr.</option>
+                    <option>Ms.</option>
+                    <option>Mrs.</option>
+                </select>
+                <br><br>
+                <lable for="fname">First name:</lable>
+                <input type="text"id="fname">
+                <br><br>
+                <lable for="lname">First name:</lable>
+                <input type="text"id="lname">
+                <br><br>
+                <lable for="gender">Gender:</lable>
+                <input type="radio"name="g1"id="gender">Male
+                <input type="radio"name="g1"id="gender">Female
+                <br><br>
+                <lable for="email">Email:</lable>
+                <input type="email"id="email">
+                <br><br>
+                <label for="dob">Date of birth:</label>
+                <input type="date"id="dob">
+                <br><br>
+                <label for="add">Address:</label>
+                <br>
+                <textarea id="add" cols="50"rows="5"></textarea>
+                <br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+Q2.Write a HTML code which generates linear gradient using canvas graphics.
+
+<html>
+<body>
+<canvas id="m" height="500" width="500" style="border:1px solid blue;">
+</canvas>
+<script>
+var c=document.getElementById("m");
+var ctx=c.getContext("2d");
+var grad=ctx.createLinearGradient(0,0,100,200);
+grad.addColorStop(0,"red");
+grad.addColorStop(0.3,"green");
+grad.addColorStop(1,"blue");
+ctx.fillStyle=grad;
+ctx.fillRect(50,50,100,200);
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+Slip-7
+
+Q1.Write a HTML code which generates the following output.
+
+<html>
+    <body>
+        <h1>HTML NESTED LIST EXAMPLE</h1>
+        <ul>
+            <li>Item 1</li>
+            <ul type="circle">
+                <li>Item 1.1</li>
+                <li>Item 1.2</li>
+                <li>Item 1.3</li>
+            </ul>
+            <li>Item 2</li>
+            <ul type="circle">
+                <li>Item 2.1</li>
+                <ul type="square">
+                    <li>Item 2.1.1</li>
+                    <li>Item 2.1.2</li>
+                    <li>Item 2.1.3</li>
+            </ul>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ul>
+        <li>Item 3</li>
+        </ul>
+    </body>
+</html>
+
+Q2. Write a HTML code which generates an unordered list of five fruits and set different 
+colour and size to each list item differently using inline styles.
+
+<html>
+    <body>
+        <ul>
+            <li style="color: red;font-size: 15px;">Apple</li>
+            <li style="color: yellow;font-size: 20px;">Pineapple</li>
+            <li style="color: orange;font-size: 30px;">Mango</li>
+            <li style="color: green;font-size: 40px;">Grape</li>
+            <li style="color: blue;font-size: 50px;">Banana</li>
+        </ul>
+    </body>
+</html>

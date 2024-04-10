@@ -1,0 +1,85 @@
+Slip-3
+
+Q1.Write a HTML code which generates the following output .
+
+<html>
+    <body>
+        <ol>
+            <li>subject</li>        
+            <ol>
+                <li>mathematics</li>
+                <li>science</li>
+                <li>literature</li>
+            </ol>
+            <li>programming languages</li>
+            <ol>
+                <li>c</li>
+                <li>java</li>
+                <li>python</li>
+                <li>ruby</li>
+                <li>swift</li>
+            </ol>
+            <li>computer science concepts</li>
+            <ol>
+                <li>data structures</li>
+                <li>algorithms</li>
+                <li>operating system</li>
+                <li>database management</li>
+                <li>networking</li>
+            </ol>
+            <li>web technologies</li>
+            <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript
+                <ol>
+                <li>react</li>
+                <li>angular</li>
+                <li>vue</li>
+                </ol>
+            </li>
+            <li>bootstrap</li>
+        </ol>
+    </body>
+</html>
+
+Q2.Write a HTML code to create a page with ordered list of 5 flowers having different 
+size and colour using linking external styles. 
+	
+<html>
+    <head>
+        <link  rel="stylesheet" href="g3.css">
+    </head>
+    <body>
+        <ol>
+            <li id="hi1">Rose</li>
+            <li id="hi2">Sunflower</li>
+            <li id="hi3">Lily</li>
+            <li id="hi4">Jasmine</li>
+            <li id="hi5">Marigold</li>
+        </ol>
+    </body>
+</html>
+
+Css file:
+
+#hi1{
+    font-size: 15px;
+    color: palevioletred;
+}
+#hi2{
+    font-size:20px;
+    color:green;
+}
+#hi3{
+    font-size: 25px;
+color: gold;
+}
+#hi4{
+    font-size: 30px;
+    color: aqua;
+}
+#hi5{
+   font-size: 40px;
+    color: brown;
+}

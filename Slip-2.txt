@@ -1,0 +1,62 @@
+Slip-2
+
+Q 1. Write a HTML code which generates the following output with background colour 
+and content in it.
+
+<html>
+    <frameset cols="40%,*">
+    <frameset rows="20%,*">
+    <frame src="first.html"></frame>
+    <frame src="second.html"></frame>
+    </frameset>
+    <frameset rows="50%,*">
+        <frameset cols="50%,*">
+            <frame src="third.html"></frame>
+            <frame src="fourth.html"></frame>
+        </frameset>
+        <frameset cols="33%,33%,*">
+            <frame src="fifth.html"></frame>
+            <frame src="six.html"></frame>
+            <frame src="seven.html"></frame>
+        </frameset>
+    </frameset>
+    </frameset>
+</html>
+
+Q2.Write a HTML code which generates the following output .
+
+<html>
+    <head>
+        <style>
+            #button{
+                background-color:green;
+                color:white;
+                border:none;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table >
+                <tr>
+                   <td>Name</td>
+            <td><input type="text" id="name"placeholder="Name"></td>
+                </tr>
+                <tr>
+<td> <label for="Email">Email</label></td>
+   <td><input type="email"id="Email"placeholder="Email"></td>
+                </tr>
+           <tr>
+            <td>
+                <label for="pass">Password</label></td>
+              <td>  <input type="password"id="pass"placeholder="Password">
+            </td>
+           </tr>
+            <tr>
+                <td></td>
+                <td> <input type="submit"value="sign up"id="button"></td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>

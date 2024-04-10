@@ -1,0 +1,70 @@
+Slip-15
+
+Q1.Write a HTML code which generates the following output.
+
+<html>
+    <body>
+        <h1>My Favorite Songs By My Favorite Bands</h1>
+        <h3>Below are lists of my favorite songs in order by my favourite bands,in no <br>	particular order</h3>
+        <ul>
+            <li><b>Metallica</b></li><br>
+            <ol>
+                <li>Master of puppets</li>
+                <li>One</li>
+                <li>For Whom The Bell Tolls</li>
+                <li>Creeping Death</li>
+            </ol><br>
+            <li><b>Led Zeppelin</b></li>
+            <ol>
+                <li>Stairway To Heaven</li>
+                <li>Communication Breakdown</li>
+            </ol><br>
+            <li><b>Iron Maiden</b></li>
+            <ol>
+                <li>Flight Of Icarus</li>
+                <li>Run To the Hills</li>
+            </ol><br>
+            <li><b>Pantera</b></li>
+            <ol><li>Cemetary Gates</li></ol><br>
+            <li><b>Slayer</b></li>
+            <ol>
+                <li>War Ensemble</li>
+            </ol>
+        </ul>
+    </body>
+</html>
+
+Q2.Write a HTML code which generates a page with a green heading, a blue paragraph, 
+and a centered red button using embedding stylesheet.
+
+<html>
+    <head>
+        <style>
+            h1{
+                color: green;
+            }
+            p{
+                color: blue;
+            }
+            .center {
+            text-align: center;
+        }
+
+        .button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>HEADING</h1>
+        <p>Computer programming or coding is the composition of sequences of instructions, called 	programs,that computers can follow to perform tasks. It involves designing and implementing 	algorithms, step-by-step specifications of procedures, by writing code in one or more 	programming languages.</p>
+            <div class="center">
+                <button class="button">Click Me</button>
+            </div>
+    </body>
+</html>
